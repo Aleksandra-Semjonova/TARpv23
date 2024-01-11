@@ -33,19 +33,19 @@
 #print("Iga sõber maksab:  ",osa)
 
 ##6
-#from sunau import AUDIO_FILE_ENCODING_ADPCM_G721, AUDIO_FILE_ENCODING_ADPCM_G722
-try: #после  того как написали try то потом нажимаем tap на клавиатруе
-    pass
-except :
-    pass
+##from sunau import AUDIO_FILE_ENCODING_ADPCM_G721, AUDIO_FILE_ENCODING_ADPCM_G722
+#try: #после  того как написали try то потом нажимаем tap на клавиатруе
+#    pass
+#except :
+#    pass
 
-try:
-    aeg = float(input("Minu tundi kulus sõiduks? ")) #на ноль нельзя делить
-    treeppikus = float(input("Minu kilomeetrit sõitsid? ")) 
-    kiirus = treepikkus/aeg 
-    print("Sinu kiirus oli " + str(kiirus) + " km/h")
+#try:
+#    aeg = float(input("Minu tundi kulus sõiduks? ")) #на ноль нельзя делить
+#    treeppikus = float(input("Minu kilomeetrit sõitsid? ")) 
+#    kiirus = treepikkus/aeg 
+#    print("Sinu kiirus oli " + str(kiirus) + " km/h")
 
-except :
-    passprint("Viga andmetüübiga")
+#except :
+#    passprint("Viga andmetüübiga")
 
-    print()
+#    print()
